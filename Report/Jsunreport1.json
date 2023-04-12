@@ -1,0 +1,145 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12613640000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the chrome browser and maximize window",
+            "match": {
+              "location": "FbLogin.to_launch_the_chrome_browser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "To validate login with valid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-face-book;to-validate-login-with-valid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5179251600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To launch the chrome browser and maximize window",
+            "match": {
+              "location": "FbLogin.to_launch_the_chrome_browser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9660326100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To launch URL of the face book application",
+            "match": {
+              "location": "FbLogin.to_launch_URL_of_the_Flipkart_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3045907000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To pass the valid user name in email field",
+            "match": {
+              "location": "FbLogin.to_pass_the_valid_user_name_in_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3455867000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "TO pass the invalid password in password field",
+            "match": {
+              "location": "FbLogin.to_pass_the_invalid_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 776500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To click the login button",
+            "match": {
+              "location": "FbLogin.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 423800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To check whether navigate to the home page or not",
+            "match": {
+              "location": "FbLogin.to_check_whether_navigate_to_the_home_page_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1511892300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To close the browser",
+            "match": {
+              "location": "FbLogin.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of the face book",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-the-face-book",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sample.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

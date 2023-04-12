@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.500081">
+    <testcase classname="To validate the login functionality of the face book" name="To validate login with valid username and invalid password" time="35.500081">
+        <system-out><![CDATA[Given To launch the chrome browser and maximize window......................passed
+Given To launch the chrome browser and maximize window......................passed
+When To launch URL of the face book application.............................passed
+And To pass the valid user name in email field..............................passed
+And TO pass the invalid password in password field..........................passed
+And To click the login button...............................................passed
+And To check whether navigate to the home page or not.......................passed
+Then To close the browser...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
